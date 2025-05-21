@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # ───── Basic Bot Configuration ───── #
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("28938499"))
+API_HASH = getenv("5fbfbdb670be6ac9ce68ed8643033c16")
+BOT_TOKEN = getenv("8155687416:AAFpQX7WytRbdLp2zXEGAMzbBZYah2dRAoY")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
+OWNER_ID = int(getenv("OWNER_ID", 7297151119))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
 BOT_USERNAME = getenv("BOT_USERNAME", "AnnieTheRobot")
 BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
@@ -19,8 +19,8 @@ ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+MONGO_DB_URI = getenv("mongodb+srv://g8910267:g8910267@cluster0.jycvf4x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOGGER_ID = int(getenv("LOGGER_ID", -1002571886877))
 
 # ───── Limits and Durations ───── #
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
@@ -60,7 +60,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ───── Session Strings ───── #
-STRING1 = getenv("STRING_SESSION")
+STRING1 = getenv("BQG5kQMAtPU__iCEp47dzp3CCIWx1ZOpaV2Ju9QokfglOXbe4QU7wIgum0kUO2ndx3M0Jo9CdWiY5S4SA4UaJbLUjnMbjSB2WB6yJT40YXG1ugOo2Xf_HcCbaL_cWj2mH6za8bnPG6fvEt6gx4McZ5oZr5DJMVO8Z71jZEbaDQlqSNEVVGotq5ofzdHcae7ORF75iD3fVaYLWbsG30DpkhA95Vf-aMNVMu4TyUVSNHqQU0DmtVQmbIGMraLFO9YDNiFBJlx6X9peZbSQ3zhfoPaqtSeAysJk9gMRk1nBVTfdjBolEs6SDTQ8C6LIGMvfQTDO1kewC9WqjnZueiqAhatx0dxYigAAAAHQHtDZAA")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
